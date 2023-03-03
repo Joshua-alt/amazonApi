@@ -1,7 +1,7 @@
 const express = require('express');
 const request = require('request-promise');
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5050;
 const app = express();
 app.use(express.json());
 
